@@ -1,9 +1,10 @@
 {
-  "name": "dz",
+  "name": "dz2",
   "version": "1.0.0",
   "main": "dz.js",
   "bin": {
-    "dz": "./dz.js"
+    "dz": "./dz.js",
+    "dz2": "./dz2.js"
   },
   "dependencies": {
     "ansi-regex": "^5.0.1",
