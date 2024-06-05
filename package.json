@@ -1,0 +1,22 @@
+{
+  "name": "http-get",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dz6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start dz6.js",
+    "dev": "nodemon dz6.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pm2": "^5.4.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.3"
+  }
+}
