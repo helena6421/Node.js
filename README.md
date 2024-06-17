@@ -18,5 +18,6 @@
   fileName: "string",
   fileBook: "string"  //новое поле
 }
+
 Задание 3
 Создать роут GET: /api/books/:id/download. Метод отдаёт на скачиваение файл книги по её :id.
