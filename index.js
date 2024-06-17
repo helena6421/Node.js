@@ -4,11 +4,8 @@ app.use(express.json())
 
 const router = require('./router')
 
+app.use('/public', express.static(__dirname+'/public'))
 app.use('/api', router)
-
-app.get('/', (req, res) => {
-    res.send('Hello, world!!!')
-})
 
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {

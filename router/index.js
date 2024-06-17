@@ -42,14 +42,6 @@ router.post('/api/books', multer.single('book-file'), (req, res) => {
     
 });
 
-// router.post('/upload-book', multer.single('book'), (req, res, next) => {
-//         if (req.file) {
-//             const { path } = req.file;
-//             req.bookFilePath = path;
-//         }
-//         next();
-// });
-
 router.put('/api/books/:id', (req, res) => {
     const {books} = store;
     const {title, description, authors, favorite, fileCover, fileName} = req.body;
